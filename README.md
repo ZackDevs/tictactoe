@@ -11,4 +11,4 @@ Well you only need to clone this repository and do
 # Can I suggest changes?
 Of course! I'm sharing here because I wan't to learn more and evolve more aswell.
 
-## Feel free to use this code for your own need!
+## Feel free to use this code for your own needs!
