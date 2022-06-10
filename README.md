@@ -2,8 +2,10 @@
 Simple TicTacToe
 
 # What do I need to run it?
-Well you only need to clone this repository and do 
+Well you only need to clone this repository and do
+
 1st `npm i prompt`
+
 2st `node index.js`
 
 # Can I suggest changes?
