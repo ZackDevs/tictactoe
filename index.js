@@ -28,10 +28,12 @@ class tictactoe {
         await new Promise(r => setTimeout(r, 1000));
         let filtered = this.board.filter(obj => obj.code == 0)
         let index = this.board.indexOf(filtered[Math.floor(Math.random()* filtered.length)])
-        if(index === -1 && this.winner === 0) return console.log("How the heck you drawed")
-        this.markPoint(index, 2)
         this.checkWinner()
-        if(this.winner === 0) this.play()
+        if(index === -1 && this.winner === 0) return console.log("How the heck you drawed")
+        if(this.winner === 0) {
+            this.markPoint(index, 2)
+            this.play()
+        }
         else {
             console.log(`${this.winner} won!`)
         }
